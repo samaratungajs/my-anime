@@ -1,9 +1,9 @@
 (function(w, d, link, script, p) {
     window.onload = function() {
       // Load css
-      var css = "http://localhost:3001/css/widget.css";
+      var css = "https://my-anime-app.herokuapp.com/css/widget.css";
       // Load js
-      var js = "http://localhost:3001/js/widget.js";
+      var js = "https://my-anime-app.herokuapp.com/js/widget.js";
   
       link = d.createElement("link");
       link.rel = "stylesheet";
