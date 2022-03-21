@@ -11,9 +11,7 @@
           class="movie"
         >
           <div class="movie-img">
-             <v-img
-            :src="`${anime.images.jpg.image_url}`"
-          ></v-img>
+            <v-img :src="`${anime.images.jpg.image_url}`"></v-img>
             <p class="review">{{ anime.score }}</p>
           </div>
           <div class="info">
