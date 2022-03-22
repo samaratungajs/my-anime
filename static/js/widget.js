@@ -30,10 +30,10 @@
       if (button) {
         button.addEventListener("click", submitClicked.bind(self));
       }
-      var form = document.getElementById("form");
-      if (form) {
-        form.addEventListener("submit", submitClicked.bind(self));
-      }
+      // var form = document.getElementById("form");
+      // if (form) {
+      //   form.addEventListener("submit", submitClicked.bind(self));
+      // }
     }
   
     function submitClicked(event) {
