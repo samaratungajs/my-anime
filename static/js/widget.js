@@ -3,8 +3,7 @@
       // HTML source code for the widget
       this.html =
         `<div class='container'>` +
-        `<div class='discount-text'>Welcome to the world of anime</div>` +
-        `<div class='logo'><span>b</span><span>l</span><span>a</span><span>h</span>.com</div>` +
+        `<div class='logo'><span>A</span><span>N</span><span>I</span><span>M</span><span>E</span>.com</div>` +
         `<form id='form' name="widget-form" action="" target="_blank" style="margin-top:5%">` +
         `   <button id='submit-button'>Visit US..</button>` +
         `</form>` +
@@ -40,7 +39,7 @@
     function submitClicked(event) {
       // Opening the vue app with all the details
       window.open(
-        `https://vuewidget.herokuapp.com/`,
+        `https://my-anime-app.herokuapp.com/`,
       );
     }
   })();
